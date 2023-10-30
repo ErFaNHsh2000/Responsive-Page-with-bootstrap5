@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+    src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/Vazir.woff2") format("woff2"),
+      url("../fonts/Vazir.woff") format("woff"),
+      url("../fonts/Vazir.ttf") format("truetype");
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Vazirmatn", sans-serif !important;
+  }
+
+  li:hover {
+    background-color: #00ffff55;
+  }
+
+  .shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25) !important;
+  }
+
+  #carouselbtn {
+    background-color: #00c3ff99;
+  }
+
+  .custom-tooltip {
+    --bs-tooltip-bg: var(--bs-success);
+  }
+  .list-unstyled li a {
+    color: #00000099;
+    text-decoration: none;
+  }
+  .list-unstyled li {
+    padding: 2px 7px;
+    border-radius: 5px;
+  }
+  .list-unstyled li:active {
+    background-color: #00d9ff;
+  }
+  #logo {
+    color: #00000055;
+  }
+  #logo:hover {
+    color: #000000;
+  }
+  @media only screen and (max-width: 992px) {
+    #myform {
+      width: 75%;
+    }
+  }

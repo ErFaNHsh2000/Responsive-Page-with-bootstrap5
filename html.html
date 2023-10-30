@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-7mQhpDl5nRA5nY9lr8F1st2NbIly/8WqhjTp+0oFxEA/QUuvlbF6M1KXezGBh3Nb"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./Css/Style.css">
+  </head>
+
+  <body>
+    <header class="shadow">
+      <nav class="navbar navbar-expand-md bg-light">
+        <div class="container">
+          <a class="navbar-brand bg-info rounded-1 p-1 text-black-50"
+            >ميني پروژه بوت استرپ</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContents"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse ms-3" id="navbarContents">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item rounded-1">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >صفحه اصلي</a
+                >
+              </li>
+              <li class="nav-item dropdown rounded-1">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  data-bs-auto-close="outside"
+                  aria-expanded="false"
+                >
+                  محصولات ما
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown dropend">
+                    <a
+                      class="dropdown-item dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      data-bs-auto-close="outside"
+                      aria-expanded="false"
+                      >محصول شماره 1</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">محصول شماره 3</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="#">محصول شماره 2</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">محصول شماره ويژه</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item rounded-1">
+                <a class="nav-link" href="#">درباره ما</a>
+              </li>
+              <li class="nav-item rounded-1">
+                <a class="nav-link" href="#">تماس با ما</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="section1" class="my-3">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h4 class="fw-bold">ميني پروژه بوت استرپ 5</h4>
+            <h5 class="fw-bold my-4 text-primary">ED Artwork</h5>
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
+              در ستون و سطرآنچنان که لازم است
+            </p>
+            <button class="btn btn-primary">تاييد</button>
+            <button class="btn btn-outline-dark ms-2">انصراف</button>
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid" src="./images/img_1.png" alt="Desiner" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div style="height: 150px; overflow: hidden">
+      <svg
+        viewBox="0 0 500 150"
+        preserveAspectRatio="none"
+        style="height: 100%; width: 100%"
+      >
+        <path
+          d="M0.00,49.98 C102.42,197.88 433.68,-61.66 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: rgba(0, 68, 127, 0.2)"
+        ></path>
+      </svg>
+    </div>
+
+    <section id="section2" class="bg-light my-4">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-md-4 text-center text-md-start">
+            <i
+              class="bi bi-stack d-inline-flex fs-3 p-2 text-primary bg-secondary bg-opacity-50 rounded-1 mb-4"
+            ></i>
+            <p class="fw-bold">ميني پروژه بوت استرپ</p>
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است.
+            </p>
+            <button class="btn btn-outline-info text-black-50">
+              لورم ایپسوم
+            </button>
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card shadow text-center">
+                  <div class="card-body">
+                    <i
+                      class="bi bi-graph-up d-inline-flex text-primary bg-secondary bg-opacity-50 rounded-1 p-2 fs-2 mb-4"
+                    ></i>
+                    <p class="card-title fw-bold mb-4">
+                      لورم ایپسوم متن ساختگی
+                    </p>
+                    <p class="card-text text-muted">
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                      و با استفاده از طراحان گرافیک است.
+                    </p>
+                  </div>
+                </div>
+                <div class="card shadow text-center mt-4">
+                  <div class="card-body">
+                    <i
+                      class="bi bi-grid-1x2-fill d-inline-flex text-primary bg-secondary bg-opacity-50 rounded-1 p-2 fs-2 mb-4"
+                    ></i>
+                    <p class="card-title fw-bold mb-4">
+                      لورم ایپسوم متن ساختگی
+                    </p>
+                    <p class="card-text text-muted">
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                      و با استفاده از طراحان گرافیک است.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mt-4 mt-md-5">
+                <div class="card shadow text-center">
+                  <div class="card-body">
+                    <i
+                      class="bi bi-menu-button-wide-fill d-inline-flex text-primary bg-secondary bg-opacity-50 rounded-1 p-2 fs-2 mb-4"
+                    ></i>
+                    <p class="card-title fw-bold mb-4">
+                      لورم ایپسوم متن ساختگی
+                    </p>
+                    <p class="card-text text-muted">
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                      و با استفاده از طراحان گرافیک است.
+                    </p>
+                  </div>
+                </div>
+                <div class="card shadow text-center mt-4">
+                  <div class="card-body">
+                    <i
+                      class="bi bi-bar-chart-line-fill d-inline-flex text-primary bg-secondary bg-opacity-50 rounded-1 p-2 fs-2 mb-4"
+                    ></i>
+                    <p class="card-title fw-bold mb-4">
+                      لورم ایپسوم متن ساختگی
+                    </p>
+                    <p class="card-text text-muted">
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                      و با استفاده از طراحان گرافیک است.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div style="height: 150px; overflow: hidden">
+      <svg
+        viewBox="0 0 500 150"
+        preserveAspectRatio="none"
+        style="height: 100%; width: 100%"
+      >
+        <path
+          d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z"
+          style="stroke: none; fill: rgba(0, 68, 127, 0.2)"
+        ></path>
+      </svg>
+    </div>
+
+    <section id="section3">
+      <div class="container">
+        <div class="row text-center">
+          <div class="d-block">
+            <h4 class="fw-bold mb-4 p-1 rounded-1 bg-info d-inline-flex">
+              خريد انواع آيتم هاي سايت
+            </h4>
+          </div>
+          <p>
+            متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+            گرافیک است
+          </p>
+        </div>
+        <div class="row g-3 align-items-center">
+          <div class="col-lg-4 order-0 order-lg-0">
+            <div class="card p-4 text-center shadow">
+              <div class="card-body">
+                <i
+                  class="bi bi-menu-button-wide-fill d-inline-flex text-primary bg-secondary bg-opacity-50 rounded-1 p-2 fs-2 mb-4"
+                ></i>
+                <p>مقدماتي</p>
+                <p>10,000 تومان</p>
+                <p class="text-muted">كاربر در ماه</p>
+                <p class="text-muted">فضا 30GB</p>
+                <p class="text-muted">پشتيباني</p>
+                <p class="text-muted">دسترسي كامل</p>
+                <button class="btn btn-primary">خريد پكيج</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 order-2 order-lg-0">
+            <div class="card p-5 bg-secondary text-light text-center shadow">
+              <div class="card-body">
+                <i
+                  class="bi bi-menu-button-wide-fill d-inline-flex text-primary bg-light bg-opacity-50 rounded-1 p-2 fs-2 mb-4"
+                ></i>
+                <p>پيشرفته</p>
+                <p>20,000 تومان</p>
+                <p class="text-white-50">كاربر در ماه</p>
+                <p class="text-white-50">فضا 30GB</p>
+                <p class="text-white-50">پشتيباني</p>
+                <p class="text-white-50">دسترسي كامل</p>
+                <button class="btn btn-outline-light">خريد پكيج</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 order-1 order-lg-0">
+            <div class="card p-4 text-center shadow">
+              <div class="card-body">
+                <i
+                  class="bi bi-menu-button-wide-fill d-inline-flex text-primary bg-secondary bg-opacity-50 rounded-1 p-2 fs-2 mb-4"
+                ></i>
+                <p>متوسط</p>
+                <p>40,000 تومان</p>
+                <p class="text-muted">كاربر در ماه</p>
+                <p class="text-muted">فضا 30GB</p>
+                <p class="text-muted">پشتيباني</p>
+                <p class="text-muted">دسترسي كامل</p>
+                <button class="btn btn-primary">خريد پكيج</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div style="height: 150px; overflow: hidden">
+      <svg
+        viewBox="0 0 500 150"
+        preserveAspectRatio="none"
+        style="height: 100%; width: 100%"
+      >
+        <path
+          d="M0.00,49.98 C102.42,197.88 433.68,-61.66 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: rgba(0, 68, 127, 0.4)"
+        ></path>
+      </svg>
+    </div>
+
+    <section class="section4" style="background-color: rgba(0, 68, 127, 0.4)">
+      <div id="gohere" class="container">
+        <div class="row">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="true"
+          >
+            <div class="carousel-indicators">
+              <button
+                id="carouselbtn"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+              ></button>
+              <button
+                id="carouselbtn"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+              ></button>
+              <button
+                id="carouselbtn"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/img_2.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="./images/img_3.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="./images/img_4.jpg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                id="carouselbtn1"
+                class="carousel-control-prev-icon"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Previous"
+                data-bs-custom-class="custom-tooltip"
+              ></span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                id="carouselbtn1"
+                class="carousel-control-next-icon"
+                title="Next"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                data-bs-custom-class="custom-tooltip"
+              ></span>
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 col-lg-2 offset-4 offset-lg-5">
+            <button class="btn btn-outline-warning my-2 w-100">
+              مشاهده گالري
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div style="height: 150px; overflow: hidden">
+      <svg
+        viewBox="0 0 500 150"
+        preserveAspectRatio="none"
+        style="height: 100%; width: 100%"
+      >
+        <path
+          d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z"
+          style="stroke: none; fill: rgba(0, 68, 127, 0.4)"
+        ></path>
+      </svg>
+    </div>
+
+    <section id="section5">
+      <div class="container">
+        <div class="row flex-column flex-lg-row align-items-center mb-3">
+          <div id="myform" class="col-5">
+            <form>
+              <div class="mb-3">
+                <label for="inputlabel" class="form-label">ایمیل</label>
+                <!-- <input id="inputlabel" type="email" class="form-control"> -->
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon2"
+                    >gmail.com@</span
+                  >
+                  <input
+                    id="inputlabel"
+                    type="text"
+                    class="form-control"
+                    placeholder="Recipient's username"
+                  />
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="inputlabel2" class="form-label">متن پیام</label>
+                <textarea
+                  id="inputlabel2"
+                  type="password"
+                  class="form-control"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">ارسال پیام</button>
+            </form>
+          </div>
+          <div id="myform" class="col-7 col-lg-5 offset-lg-2 text-center">
+            <img src="./images/img_5.png" alt="img5" class="img-fluid" />
+          </div>
+        </div>
+
+        <div class="row row-cols-2 text-center gy-3">
+          <div class="col-md-2">
+            <img width="70" src="./images/img_6.svg" alt="" />
+          </div>
+          <div class="col-md-2">
+            <img width="70" src="./images/img_7.svg" alt="" />
+          </div>
+          <div class="col-md-2">
+            <img width="70" src="./images/img_8.svg" alt="" />
+          </div>
+          <div class="col-md-2">
+            <img width="70" src="./images/img_9.svg" alt="" />
+          </div>
+          <div class="col-md-2">
+            <img width="70" src="./images/img_10.svg" alt="" />
+          </div>
+          <div class="col-md-2">
+            <img width="70" src="./images/img_11.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div style="height: 150px; overflow: hidden">
+      <svg
+        viewBox="0 0 500 150"
+        preserveAspectRatio="none"
+        style="height: 100%; width: 100%"
+      >
+        <path
+          d="M0.00,49.98 C102.42,197.88 433.68,-61.66 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: rgba(0, 68, 127, 0.2)"
+        ></path>
+      </svg>
+    </div>
+
+    <footer style="background-color: rgba(0, 68, 127, 0.2)">
+      <div class="container">
+        <div class="row align-items-center text-center text-md-start">
+          <div class="col-md-4 py-3">
+            <h4 class="fw-bold">ED Artwork</h4>
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است
+            </p>
+            <div class="ms-2">
+              <i id="logo" class="bi bi-instagram fs-2"></i>
+              <i id="logo" class="bi bi-telegram fs-2 mx-3"></i>
+              <i id="logo" class="bi bi-facebook fs-2 me-3"></i>
+              <i id="logo" class="bi bi-linkedin fs-2"></i>
+            </div>
+          </div>
+          <div class="col-md-7 offset-md-1">
+            <div class="row">
+              <div class="col-md-4">
+                <h5 class="border-3 border-bottom border-dark pb-1">
+                  بخش هاي وب سايت
+                </h5>
+                <ul class="list-unstyled">
+                  <li><a href="#gohere"> صفحه های اصلی</a></li>
+                  <li><a href="#gohere">محصولات</a></li>
+                  <li><a href="#gohere">گالری</a></li>
+                  <li><a href="#gohere">پیشتیبانی</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h5 class="border-3 border-bottom border-dark pb-1">محصولات</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#gohere">لورم ایپسوم متن 1</a></li>
+                  <li><a href="#gohere">لورم ایپسوم 2</a></li>
+                  <li><a href="#gohere">لورم ایپسوم متن 3</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h5 class="border-3 border-bottom border-dark pb-1">
+                  درباره ما
+                </h5>
+                <ul class="list-unstyled">
+                  <li><a href="#gohere">درباره ما</a></li>
+                  <li><a href="#gohere">تماس با ما</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
+    </script>
+  </body>
+</html>
